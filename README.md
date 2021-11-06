@@ -23,7 +23,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Screen Recording 2021-11-06 at 11 39 50 AM](https://user-images.githubusercontent.com/86747062/140620486-d6fb5126-1869-4216-8907-f4ad4691738d.gif)
-
-
+![Screen Recording 2021-11-06 at 11 47 59 AM](https://user-images.githubusercontent.com/86747062/140620690-d27740d5-b272-45e7-86ea-b0154c5eb70d.gif)
 
