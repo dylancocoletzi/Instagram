@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4E5EDC273F407200C3D486 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E5EDB273F407200C3D486 /* CommentCell.swift */; };
 		1C7E79BC2735E25900DFEA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E79BB2735E25900DFEA48 /* AppDelegate.swift */; };
 		1C7E79BE2735E25900DFEA48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E79BD2735E25900DFEA48 /* SceneDelegate.swift */; };
 		1C7E79C32735E25900DFEA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7E79C12735E25900DFEA48 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		11C847839164AD246CD58411 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
+		1C4E5EDB273F407200C3D486 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		1C7E79B82735E25900DFEA48 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7E79BB2735E25900DFEA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7E79BD2735E25900DFEA48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				1C7E79C42735E25C00DFEA48 /* Assets.xcassets */,
 				1C7E79C62735E25C00DFEA48 /* LaunchScreen.storyboard */,
 				1C7E79C92735E25C00DFEA48 /* Info.plist */,
+				1C4E5EDB273F407200C3D486 /* CommentCell.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -269,6 +272,9 @@
 				Base,
 			);
 			mainGroup = 1C7E79AF2735E25900DFEA48;
+			packageReferences = (
+				1C4E5EDD273F55A500C3D486 /* XCRemoteSwiftPackageReference "MessageInputBar" */,
+			);
 			productRefGroup = 1C7E79B92735E25900DFEA48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -421,6 +427,7 @@
 				1C7E79EE2735EB4300DFEA48 /* FeedViewController.swift in Sources */,
 				1C7E79BE2735E25900DFEA48 /* SceneDelegate.swift in Sources */,
 				1C7E79F227361A9400DFEA48 /* PostCell.swift in Sources */,
+				1C4E5EDC273F407200C3D486 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,6 +797,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C4E5EDD273F55A500C3D486 /* XCRemoteSwiftPackageReference "MessageInputBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageInputBar";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 1C7E79B02735E25900DFEA48 /* Project object */;
 }
